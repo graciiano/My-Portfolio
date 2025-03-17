@@ -13,12 +13,12 @@ export default function Header() {
 
   return (
     <header className="w-full h-[4rem] fixed top-0 left-0 bg-backgroundPage/95 backdrop-blur-sm z-50 border-b border-textSecondary/10">
-      <div className="flex container  mx-auto px-4 sm:px-6 lg:px-8 h-full items-center justify-between">
+      <div className="flex container  h-full items-center justify-between min-w-full px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-textSecondary hover:text-textSecondary/90 transition-colors">
-          <Link href="/">Diogo Graciano</Link>
+          <Link href="/">Portfólio</Link>
         </h2>
 
-        <nav className="hidden sm:flex gap-8">
+        <nav className="hidden md:flex gap-8">
           <Link
             href="/"
             className={`relative text-lg text-textPrimary hover:text-textSecondary transition-colors duration-300 ${
@@ -51,7 +51,7 @@ export default function Header() {
           </Link>
         </nav>
 
-        <div className="sm:hidden">
+        <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
               <Button

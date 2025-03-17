@@ -9,7 +9,7 @@ body {
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --background-page: #000;
+    --background-page: #0c0a0a;
     --foreground: 0 0% 3.9%;
     --buttoPrimary: #dd3b3b;
     --buttonSecondary: #dd3b3b;
@@ -76,10 +76,13 @@ body {
   }
 }
 
-
 @keyframes underline {
-  from { transform: scaleX(0) }
-  to { transform: scaleX(1) }
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }
 
 .after\:animate-underline::after {
