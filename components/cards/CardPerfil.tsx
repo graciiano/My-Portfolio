@@ -7,7 +7,7 @@ export default function CardProfile({
   role = "Desenvolvedor Full-Stack",
   socialLinks = {
     github: "https://github.com/graciiano",
-    instagram: "https://instagram.com/graciiano",
+    instagram: "https://instagram.com/graciaano_",
     linkedin: "https://www.linkedin.com/in/graciiano/",
   },
   updateDate = new Date().toLocaleDateString("pt-BR"),

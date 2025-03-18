@@ -1,6 +1,6 @@
 export default function CardTecnologias() {
   return (
-    <article className="flex flex-col items-center max-w-[18.75rem] max-h-full p-6 border rounded-sm shadow-lg hover:shadow-xl transition-shadow duration-300 max-md:w-full max-md:max-w-full">
+    <article className="flex flex-col items-center max-w-[18.75rem] h-full xl:min-h-[400px] p-6 border rounded-sm shadow-lg hover:shadow-xl transition-shadow duration-300 max-md:w-full max-md:max-w-full grow">
       <header className="flex flex-col items-center mb-4">
         <h1 className="text-2xl font-bold text-textPrimary mb-4">
           Tecnologias
@@ -14,6 +14,9 @@ export default function CardTecnologias() {
             <ul className="space-y-1">
               <li className="text-sm text-textSecondary bg-accent/10 px-2 py-1 rounded">
                 Java
+              </li>
+              <li className="text-sm text-textSecondary bg-accent/10 px-2 py-1 rounded">
+                Api RESTful
               </li>
               <li className="text-sm text-textSecondary bg-accent/10 px-2 py-1 rounded">
                 Spring Boot
@@ -49,7 +52,7 @@ export default function CardTecnologias() {
         </div>
       </header>
 
-      <div className="text-center mb-2">
+      <div className="text-center mb-2 mt-auto">
         <p className="text-xs text-textSecondary">
           Experiência prática em desenvolvimento fullstack com foco em soluções
           escaláveis
